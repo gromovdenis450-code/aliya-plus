@@ -86,7 +86,7 @@ html {
   margin-top: 15vw;
   font-size: 2.5vw;
   padding: 0.5vw;
-  background-image: url(/image/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat  ;
@@ -127,7 +127,7 @@ html {
   border-radius: 1vw;
   box-shadow: 0vw 0.1vw 1vw;
   padding: 0.3rem;
-  background-image: url(/image/12.jpg);
+  background-image: url(12.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -178,7 +178,7 @@ html {
   box-shadow: 0vw 0.1vw 1vw ;
   width: 30vw;
   padding: 0.3rem;
-  background-image: url(/image/13.jpg);
+  background-image: url(13.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -284,4 +284,5 @@ box-shadow: 0vw 1vw 1vw rgb(0, 0, 0);
   padding-top: 2rem;
    color: inherit;       
   text-decoration: none;
+
 }
