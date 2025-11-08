@@ -1,0 +1,447 @@
+
+html {
+  scroll-behavior: smooth;
+}
+#sticky_part{
+  position: fixed;
+  
+  border:solid 0.1vw black;
+  z-index: 10;
+  top:0px;
+  width: 96vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 1rem;
+  font-size: 2vw;
+  border-radius: 1vw;
+  background-color: white;
+}
+
+#name_course{
+  justify-self: left;
+  color: inherit;       
+  text-decoration: none;
+  
+}
+#center_sticky_part{
+  display: grid;
+  justify-content: center;
+  justify-self: stretch;
+ grid-auto-columns: max-content;
+ grid-auto-flow: column;
+ gap: 2vw;
+ 
+ 
+}
+#right_stycky_part{
+  display: grid;
+  justify-self: stretch;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 4vw;
+}
+#phone_number{
+ display: inline-block;
+  font-size: clamp(16px, 2vw, 25px);
+  border-radius: 1vw;
+  padding: 0.3rem;
+  border: solid 1px black;
+  color: inherit;       
+  text-decoration: none;
+  
+}
+#translate{
+  border: solid 1px black;
+  padding: 0.3vw;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+ background-color: gold;
+ box-shadow: 0.1vw 0.1vw 0.3vw;
+ color: inherit;       
+  text-decoration: none;
+}
+#we{
+  color: inherit;       
+  text-decoration: none;
+}
+#contact{
+  color: inherit;       
+  text-decoration: none;
+}
+#course{
+  color: inherit;       
+  text-decoration: none;
+}
+#translate:hover{
+  background-color: black;
+  color: gold;
+}
+#border1{
+  position: relative;
+  border: solid 1px  black;
+  border-radius:2vw;
+  display: grid;
+  justify-self: center;
+  width: 40%;
+  height: 20vw;
+  margin-top: 15vw;
+  font-size: 2.5vw;
+  padding: 0.5vw;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat  ;
+  color: gold;
+  scroll-margin-top: 28vh;
+}
+#text11{
+  justify-self: center;
+  padding: 0.3rem;
+  border:solid 1px white;
+  border-radius: 1vw;
+  color: white;
+  background-color: gold;
+  place-items: center;
+  height: 3vw ;
+       
+  text-decoration: none;
+} 
+#text11:hover {
+  background: white;
+  color: gold;
+  border: solid 1px gold;
+  
+}
+#position_course{
+ margin-top: 20vw;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content;
+  justify-content: center;
+ 
+  
+  gap: 12vw ;
+  font-size:clamp(16px,1.5vw,25px) ;
+}
+#course1{
+  border: solid 1px black;
+  border-radius: 1vw;
+  box-shadow: 0vw 0.1vw 1vw;
+  padding: 0.3rem;
+  background-image: url(12.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+  
+}
+#name_course1{
+  justify-self: center;
+  margin-top: 1.5vh;
+  color: gold;
+}
+#name_course2{
+  color: white;
+  justify-self: center;
+}
+#name_course3{
+  color:gold;
+}
+#name_course4{
+  color:white;
+
+}
+#to_enroll1{
+  color: gold;
+  justify-self: center;
+  border:solid 1px black;
+  padding: 0.5rem;
+  border-radius: 1vw;
+  box-shadow: 0vw 0.1vw 1vw black;
+  background-color: black;
+  margin-top: 3rem;
+  font-size: 2vw;
+  display: grid;
+ justify-self: center;
+ text-decoration: none;
+ 
+}
+#to_enroll1:hover{
+  color: black;
+  background-color: gold;
+  
+  box-shadow: 0vw 0.1vw 1vw gold;
+}
+
+#course2{
+  border: solid 1px black;
+  border-radius: 1vw;
+  box-shadow: 0vw 0.1vw 1vw ;
+  width: 30vw;
+  padding: 0.3rem;
+  background-image: url(13.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#name_course12{
+  justify-self: center;
+  margin-top: 1.5vh;
+  color: gold;
+}
+#name_course13{
+  color: white;
+  justify-self: center;
+}
+
+#name_course14{
+  color:gold;
+}
+#name_course15{
+  color:white;
+
+}
+#to_enroll2{
+  color: gold;
+  display: grid;
+ justify-self: center;
+ border:solid 1px black;
+  padding: 0.5rem;
+  border-radius: 1vw;
+  font-size: 2vw;
+  box-shadow: 0vw 0.1vw 1vw black;
+  background-color: black;
+  text-decoration: none;
+}
+#to_enroll2:hover{
+  color: black;
+  background-color: gold;
+  
+  box-shadow: 0vw 0.1vw 1vw gold;
+}
+#course222{
+  display: grid;
+   scroll-margin-top: 80px;
+   
+  padding: 1rem;
+  font-size: 4vw;
+  justify-self: center;
+  position: relative;
+  top: 17vw;
+  }
+
+#we123{
+  justify-self: center;
+  font-size: 4vw ;
+  position: relative;
+  top: 10vw;
+  scroll-margin-top: 80px;
+}
+.our_plus1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* три равные колонки */
+  grid-template-rows: repeat(2, 1fr);    /* две строки одинаковой высоты */
+  gap: 2vw;
+  margin-top: 20vw;
+  align-items: stretch; 
+}
+
+.our_plus {
+  border: 1px solid black;
+  padding: 1rem;
+  color: gold;
+  text-align: center;
+  font-size: 2vw;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+ background-color: black;
+border-radius: 1vw;
+box-shadow: 0vw 1vw 1vw rgb(0, 0, 0);
+  width: 100%; /* ширина равна ячейке */
+  height: 100%; /* высота равна ячейке */
+  box-sizing: border-box;
+  
+}
+
+#reviews{
+  position: relative;
+  left: 50vw;
+  top: 30vw;
+}
+#contact12{
+  position: relative;
+  display: grid;
+  justify-content: center;
+  font-size: 4vw;
+  scroll-margin-top: 80px;
+ 
+}
+
+.phone{
+  font-size: 2vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 2rem;
+   color: inherit;       
+  text-decoration: none;
+}
+
+@media (min-width: 360px) and (max-width: 450px){
+ #sticky_part{
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 3vw;
+  width: 75%;
+ }
+#phone_number{
+  align-items: center;
+  border-radius: 10vw;
+  font-size: 2.5vw;
+
+}
+#translate{
+  font-size: 2.5vw;
+ align-self: center;
+}
+#border1{
+  width: 50vw;
+  height: 25vw;
+}
+#position_course{ 
+  margin-right: ;
+  gap: 2vw;
+}
+#course1{
+  
+  width: 40vw;
+}
+#course2{
+ width: 40vw;
+}
+.our_plus{
+  font-size: 2.5vw;
+ width: 95%;
+}
+.phone{
+  font-size: 5vw;
+}
+}
+@media (min-width: 451px) and (max-width: 760px){
+#sticky_part{
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 2.5vw;
+  width: 86%;
+
+ }
+#phone_number{
+  align-items: center;
+  border-radius: 5vw;
+  font-size: 3vw;
+}
+#name_course12{
+  
+   text-align: center;
+}
+#translate{
+  font-size: 2.5vw;
+ align-self: center;
+}
+#border1{
+  width: 50vw;
+  height: 25vw;
+}
+#position_course{ 
+  position: relative;
+  justify-content: left;
+  left: 5%;
+  gap: 2vw;
+}
+#course1{
+  width: 39vw;
+}
+#course2{
+ width: 39vw;
+}
+
+
+.our_plus1{
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+  grid-template-rows: repeat(3, 1fr);    /* 3 строки */
+  gap: 2vw;
+  margin-top: 20vw;
+  width: 85%;
+  height: 15vw;
+}
+
+.phone{
+  position: relative;
+  top: 30vw;
+  font-size: 5vw;
+}
+#contact12{
+  position: relative;
+  top: 30vw;
+}
+}
+@media (min-width: 761px) and (max-width: 1024px){
+  #sticky_part{
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 2.5vw;
+  width: 85vw;
+
+ }
+#phone_number{
+  align-items: center;
+  border-radius: 5vw;
+  font-size: 3vw;
+}
+#name_course12{
+  
+   text-align: center;
+}
+#translate{
+  font-size: 2.5vw;
+ align-self: center;
+}
+#border1{
+  width: 50vw;
+  height: 25vw;
+}
+#position_course{ 
+  position: relative;
+  justify-content: left;
+  left: 5%;
+  gap: 2vw;
+}
+#course1{
+  width: 39vw;
+}
+#course2{
+ width: 39vw;
+}
+
+.our_plus1{
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+  grid-template-rows: repeat(3, 1fr);    /* 3 строки */
+  gap: 2vw;
+  margin-top: 20vw;
+  width: 85%;
+  height: 15vw;
+}
+
+.phone{
+  position: relative;
+  top: 30vw;
+  font-size: 5vw;
+}
+#contact12{
+  position: relative;
+  top: 30vw;}
+}
